@@ -28,8 +28,7 @@ Run in order on SQL Server 2019+ (built and tested on SQL Server 2022 Developer 
 | 04 | `04_visits_admissions.sql` | Outpatient visits and inpatient admissions with correct status flows |
 | 05 | `05_billing_collections.sql` | Billing services, patient statements, and collection transactions |
 | 06 | `06_appointments.sql` | Appointments with date logic relative to the current date |
-
-*(Script filenames may differ slightly — see the files in this folder.)*
+| 07 | `07_pbi_views.sql` | **The Power BI view layer** — 7 `vw_PBI_` views holding all business logic (revenue classification, LOS edge cases, no-show reclassification, collections) |
 
 ## What it demonstrates
 
